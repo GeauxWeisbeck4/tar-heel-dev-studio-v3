@@ -47,15 +47,15 @@ const menuitems = [
         <a href="/" class="navbar-logo block w-full py-5">
           {(Astro.url.pathname === '/') ? (
             <img
-              src="/assets/logo/logo-white.svg"
+              src="/assets/logo/logo.svg"
               alt="logo"
               class="header-logo w-full"
             />
           ) : (
-            <img src="/assets/logo/logo.svg" alt="logo" class="w-full dark:hidden" />
+            <img src="/assets/logo/logo.svg" alt="logo" class="w-full" />
             <img src="/assets/logo/logo-white.svg" alt="logo" class="w-full hidden dark:block" />
           )}
-          
+
         </a>
       </div>
       <div class="flex w-full items-center justify-between px-4">
@@ -95,7 +95,7 @@ const menuitems = [
 
                     )
                   }
-                
+
                   if(item.children) {
                     return (
                       <li class="submenu-item group relative">
@@ -108,7 +108,7 @@ const menuitems = [
 
                           <svg class="fill-current ml-2" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
-                              d="M7.99999 14.9C7.84999 14.9 7.72499 14.85 7.59999 14.75L1.84999 9.10005C1.62499 8.87505 1.62499 8.52505 1.84999 8.30005C2.07499 8.07505 2.42499 8.07505 2.64999 8.30005L7.99999 13.525L13.35 8.25005C13.575 8.02505 13.925 8.02505 14.15 8.25005C14.375 8.47505 14.375 8.82505 14.15 9.05005L8.39999 14.7C8.27499 14.825 8.14999 14.9 7.99999 14.9Z" 
+                              d="M7.99999 14.9C7.84999 14.9 7.72499 14.85 7.59999 14.75L1.84999 9.10005C1.62499 8.87505 1.62499 8.52505 1.84999 8.30005C2.07499 8.07505 2.42499 8.07505 2.64999 8.30005L7.99999 13.525L13.35 8.25005C13.575 8.02505 13.925 8.02505 14.15 8.25005C14.375 8.47505 14.375 8.82505 14.15 9.05005L8.39999 14.7C8.27499 14.825 8.14999 14.9 7.99999 14.9Z"
                             />
                           </svg>
                         </a>
