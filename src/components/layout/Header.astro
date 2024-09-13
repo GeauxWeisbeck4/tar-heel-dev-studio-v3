@@ -2,23 +2,23 @@
 const menuitems = [
   {
     title: "Home",
-    path: "/#home",
+    path: "/",
   },
   {
     title: "About",
-    path: "/#about",
+    path: "/about",
   },
   {
     title: "Pricing",
-    path: "/#pricing",
+    path: "/pricing",
   },
   {
     title: "Team",
-    path: "/#team",
+    path: "/team",
   },
   {
     title: "Contact",
-    path: "/#contact",
+    path: "/contact",
   },
   {
     title: "Blog",
@@ -45,16 +45,13 @@ const menuitems = [
     <div class="relative -mx-4 flex items-center justify-between">
       <div class="w-60 max-w-full px-4">
         <a href="/" class="navbar-logo block w-full py-5">
-          {(Astro.url.pathname === '/') ? (
+
             <img
               src="/assets/logo/logo.svg"
               alt="logo"
               class="header-logo w-full"
             />
-          ) : (
-            <img src="/assets/logo/logo.svg" alt="logo" class="w-full" />
-            <img src="/assets/logo/logo-white.svg" alt="logo" class="w-full hidden dark:block" />
-          )}
+
 
         </a>
       </div>
