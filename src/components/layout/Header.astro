@@ -9,10 +9,10 @@ const menuitems = [
     title: "About",
     path: "/about",
   },
-  {
-    title: "Pricing",
-    path: "/pricing",
-  },
+  // {
+  //   title: "Pricing",
+  //   path: "/pricing",
+  // },
   {
     title: "Projects",
     path: "/projects",
@@ -26,17 +26,16 @@ const menuitems = [
     path: "/contact",
   },
   {
-    title: "Pages",
-    path: "javascript:void(0)",
+    title: "Resources",
+    path: "/resources",
     children: [
-      { title: "About Page", path: "/about" },
-      { title: "Pricing Page", path: "/pricing" },
-      { title: "Contact Page", path: "/contact" },
-      { title: "Blog Grid Page", path: "/blog" },
-      { title: "Sign Up Page", path: "/signup" },
-      { title: "Sign In Page", path: "/signin" },
-      { title: "404 Page", path: "/404" },
-      { title: "Projects", path: "/projects"},
+      { title: "LinkedIn Page", path: "https://linkedin.com" },
+      { title: "Facebook Page", path: "/pricing" },
+      { title: "News", path: "/blog" },
+      { title: "Case Studies", path: "/projects" },
+      { title: "Referral", path: "/contact" },
+      { title: "Newsletter", path: "/newsletter" },
+      { title: "EBooks", path: "/ebooks" },
     ],
   },
 ];
@@ -175,7 +174,7 @@ const menuitems = [
             </span>
           </button>
           <div class="hidden sm:flex">
-            <a
+            <!-- <a
               href="/signin"
               class={`${Astro.url.pathname === '/' ? 'loginBtn py-2 px-[22px] text-base font-medium text-white hover:opacity-70' : 'loginBtn py-2 px-[22px] text-base font-medium text-dark dark:text-white hover:opacity-70'}`}
             >
@@ -183,10 +182,17 @@ const menuitems = [
             </a>
             <a
               href="/signup"
-              class={`${Astro.url.pathname === '/' ? 'signUpBtn rounded-md bg-white bg-opacity-20 py-2 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark' : 'signUpBtn rounded-md bg-primary py-2 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-blue-dark'}`}
+              class={`${Astro.url.pathname === '/' ? 'signUpBtn rounded-md bg-white bg-opacity-20 mx-4 py-2 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark' : 'signUpBtn rounded-md mx-4 bg-primary py-2 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-blue-dark'}`}
             >
               Sign Up
-            </a>
+            </a> -->
+
+            <a
+              href="/contact"
+              class="bg-white py-2 px-4 hover:bg-sky-800 text-sky-800 active:bg-sky-600 font-semibold hover:text-white text-md border-1 ml-16 rounded-md"
+            >
+            Free Consultation
+          </a>
           </div>
         </div>
       </div>
