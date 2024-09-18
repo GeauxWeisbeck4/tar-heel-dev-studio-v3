@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Breadcrumb from "../components/layout/Breadcrumb.astro";
+import Testimonials from "../components/Testimonials.astro";
+---
+
+<Layout
+  description="Tar Heel Dev Studio | Testimonial Page"
+  title="Testimonials | Tar Heel Dev Studio"
+>
+  <Breadcrumb>
+    <Fragment slot="title">Testimonial Page</Fragment>
+  </Breadcrumb>
+  <Testimonials />
+</Layout>
