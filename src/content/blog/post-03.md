@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "The no-fuss guide to upselling and cross selling"
+description: "How you can use storytelling to enhance brand engagement for small businesses."
 snippet: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 image: {
     src: "/assets/blog/blog-03.jpg",

@@ -1,5 +1,5 @@
 ---
-import SEO
+import { SEO } from "astro-seo";
 import Footer from '../components/layout/Footer.astro';
 import Header from '../components/layout/Header.astro';
 import BackToTop from '../components/layout/BackToTop.astro';
@@ -12,6 +12,9 @@ interface Props {
 }
 
 const { description, title, image } = Astro.props;
+// const makeTitle = title
+//   ? title + " | " + "Tar Heel Dev Studio"
+//   : "Tar Heel Dev Studio | Software Development, Design, and Marketing";
 ---
 
 <!DOCTYPE html>
@@ -54,6 +57,7 @@ const { description, title, image } = Astro.props;
           { name: "twitter:description", content: "Agent" },
         ],
       }}
+    ></SEO>
   </head>
   <body>
     <Header />

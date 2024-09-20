@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Meet AutoManage, the best AI management tools"
+description: "How you can use storytelling to enhance brand engagement for small businesses."
 snippet: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 image: {
     src: "/assets/blog/blog-01.jpg",

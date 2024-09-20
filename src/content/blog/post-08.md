@@ -1,6 +1,7 @@
 ---
 draft: false
 title: 'How to earn more money as a wellness coach'
+description: "How you can use storytelling to enhance brand engagement for small businesses."
 snippet: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
 image: { src: '/assets/blog/blog-02.jpg', alt: 'blog details' }
 publishDate: '2023-11-15 11:39'
