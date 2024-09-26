@@ -21,6 +21,7 @@ publishedBlogEntries.sort(function (a, b) {
 >
   <Breadcrumb>
     <Fragment slot="title">Blog</Fragment>
+    <Fragment slot="desc">Writing about web app development, design, brand storytelling, small businesses, and open source software. We also talk about local small businesses for our friends in North Carolina and share case studies.</Fragment>
   </Breadcrumb>
   <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 dark:bg-dark">
     <div class="container">
@@ -51,8 +52,8 @@ publishedBlogEntries.sort(function (a, b) {
                       {blogPostEntry.data.title}
                     </span>
                   </h3>
-                  <p class="max-w-[370px] text-base text-body-color dark:text-dark-6">
-                    {blogPostEntry.data.postDetails.paraOne.slice(0, 100)}
+                  <p class="max-w-[370px] text-base text-body-color dark:text-slate-50">
+                    {blogPostEntry.data.snippet.slice(0, 100)}
                   </p>
                 </div>
               </a>

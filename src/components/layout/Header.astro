@@ -2,7 +2,6 @@
 const menuitems = [
   {
     title: "Home",
-
     path: "/",
   },
   {
@@ -13,10 +12,10 @@ const menuitems = [
   //   title: "Pricing",
   //   path: "/pricing",
   // },
-  {
-    title: "Projects",
-    path: "/projects",
-  },
+  // {
+  //   title: "Projects",
+  //   path: "/projects",
+  // },
   {
     title: "Blog",
     path: "/blog",
@@ -48,7 +47,7 @@ const menuitems = [
         <a href="/" class="navbar-logo block w-full py-5">
 
             <img
-              src="/assets/logo/logo.svg"
+              src="/assets/logo/logo-white.svg"
               alt="logo"
               class="header-logo w-full"
             />
@@ -85,7 +84,7 @@ const menuitems = [
                         <a
                           href={item.path}
                           class={` ${index}
-                          ${Astro.url.pathname === '/' ? 'ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10' : 'ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-body-color dark:lg:text-dark-6 xl:ml-10'}
+                          ${Astro.url.pathname === '/' ? 'ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-sky-800 lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-sky-800 xl:ml-10' : 'ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-sky-800 lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-slate-50 dark:lg:text-slate-50 xl:ml-10'}
                           `}>
                           {item.title}
                         </a>
@@ -100,7 +99,7 @@ const menuitems = [
                         <a
                           href={item.path}
                           class={` ${index}
-                          ${Astro.url.pathname === '/' ? 'relative mx-8 flex items-center justify-between py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-8 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10' : 'relative mx-8 flex items-center justify-between py-2 font-medium text-base text-primary group-hover:text-primary lg:mr-0 lg:ml-8 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 xl:ml-10'}
+                          ${Astro.url.pathname === '/' ? 'relative mx-8 flex items-center justify-between py-2 font-medium text-base text-dark dark:text-white group-hover:text-sky-800 lg:mr-0 lg:ml-8 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 lg:text-white lg:group-hover:text-sky-800 lg:group-hover:opacity-70 xl:ml-10' : 'relative mx-8 flex items-center justify-between py-2 font-medium text-base text-slate-50 group-hover:text-sky-800 lg:mr-0 lg:ml-8 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 xl:ml-10'}
                           `}>
                           {item.title}
 
@@ -189,9 +188,9 @@ const menuitems = [
 
             <a
               href="/contact"
-              class="bg-white py-2 px-4 hover:bg-sky-800 text-sky-800 active:bg-sky-600 font-semibold hover:text-white text-md border-1 ml-16 rounded-md"
+              class="bg-secondary dark:bg-slate-50 dark:text-sky-700 py-2 px-4 hover:bg-sky-800 dark:hover:bg-secondary dark:hover:text-slate-50 text-slate-50 active:bg-sky-600 font-semibold hover:text-white text-md border-1 ml-16 rounded-md"
             >
-            Free Consultation
+            Schedule Free Call
           </a>
           </div>
         </div>

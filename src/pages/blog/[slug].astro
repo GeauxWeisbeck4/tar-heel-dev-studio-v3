@@ -19,7 +19,10 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout title={entry.data.title} description={entry.data.postDetails.paraOne} image={entry.data.bigImg.src}>
+<Layout
+  description="Writing about small businesses, sharing case studies, and inspiring entrepreneurs to learn programming. | Blog"
+  title="Tar Heel Dev Studio | Company Blog and News"
+>
   <!-- ====== Blog Details Section Start -->
   <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 dark:bg-dark">
     <div class="container">
@@ -30,8 +33,8 @@ const { Content } = await entry.render();
             data-wow-delay=".1s"
           >
             <img
-              src={entry.data.bigImg.src}
-              alt={entry.data.bigImg.alt}
+              src={entry.data.image.src}
+              alt={entry.data.image.alt}
               class="h-full w-full object-cover object-center"
             />
             <div
@@ -41,15 +44,15 @@ const { Content } = await entry.render();
                 <div class="mb-4 mr-5 flex items-center md:mr-10">
                   <div class="mr-4 h-10 w-10 overflow-hidden rounded-full">
                     <img
-                      src={entry.data.authorImg.src}
-                      alt={entry.data.authorImg.alt}
+                      src={entry.data.authImage.src}
+                      alt={entry.data.authImage.alt}
                       class="w-full"
                     />
                   </div>
                   <p class="text-base font-medium text-white">
                     By
                     <a
-                      href="javascript:void(0)"
+                      href="/blog/meet-andrew"
                       class="text-white hover:opacity-70"
                     >
                       {entry.data.author}
@@ -112,26 +115,7 @@ const { Content } = await entry.render();
                   {entry.data.title}
                 </h1>
                 <p
-                  class="wow fadeInUp mb-6 text-base text-body-color dark:text-dark-6"
-                  data-wow-delay=".1s"
-                >
-                  {entry.data.postDetails.paraOne}
-                  <Content />
-                </p>
-                <p
-                  class="wow fadeInUp mb-8 text-base text-body-color dark:text-dark-6"
-                  data-wow-delay=".1s"
-                >
-                  {entry.data.postDetails.paraTwo}
-                </p>
-                <h2
-                  class="wow fadeInUp mb-6 text-2xl font-bold text-dark dark:text-white sm:leading-[40px] sm:text-[28px]"
-                  data-wow-delay=".1s"
-                >
-                  {entry.data.postDetails.title}
-                </h2>
-                <p
-                  class="wow fadeInUp mb-10 text-base text-body-color dark:text-dark-6"
+                  class="wow fadeInUp mb-10 text-base text-black dark:text-white"
                   data-wow-delay=".1s"
                 >
                   <Content />
@@ -149,14 +133,6 @@ const { Content } = await entry.render();
                         <path
                           d="M37.5905 35.65C36.728 35.65 35.9374 35.1469 35.6499 34.3563L33.278 28.6063C30.6187 28.175 28.2468 26.8094 26.7374 24.725C25.1562 22.6406 24.653 20.0531 25.2999 17.5375C26.3062 13.4406 30.5468 10.35 35.2187 10.4219C38.5249 10.4938 41.2562 11.8594 42.9812 14.3031C44.7062 16.7469 45.1374 20.0531 44.1312 23.0719C43.1968 25.8031 41.9749 28.5344 40.8249 31.1938C40.3937 32.2719 39.8905 33.35 39.4593 34.3563C39.2437 35.1469 38.453 35.65 37.5905 35.65ZM35.0749 13.5844C31.9124 13.5844 29.0374 15.5969 28.3905 18.2563C28.0312 19.8375 28.3187 21.4188 29.3249 22.7844C30.4749 24.3656 32.4155 25.3719 34.4999 25.5156L35.5062 25.5875L37.5905 30.6188C37.6624 30.4031 37.8062 30.1156 37.878 29.9C39.028 27.3125 40.178 24.6531 41.0405 21.9938C41.7593 19.9813 41.4718 17.7531 40.3218 16.1C39.1718 14.5188 37.3749 13.6563 35.1468 13.5844C35.1468 13.5844 35.1468 13.5844 35.0749 13.5844Z" />
                       </svg>
-                    </span>
-                    <p
-                      class="mb-[18px] text-base italic leading-[28px] text-dark dark:text-white"
-                    >
-                      {entry.data.quotes.quote}
-                    </p>
-                    <span class="text-xs italic text-body-color dark:text-dark-6">
-                      “{entry.data.quotes.author}”
                     </span>
                   </div>
                   <div>
@@ -189,27 +165,6 @@ const { Content } = await entry.render();
                     </span>
                   </div>
                 </div>
-
-                <h3
-                  class="wow fadeInUp mb-6 text-2xl font-semibold text-dark dark:text-white sm:leading-[40px] sm:text-[28px]"
-                  data-wow-delay=".1s"
-                >
-                 {entry.data.postDetails.titleTwo}
-                </h3>
-
-                <p
-                  class="wow fadeInUp mb-6 text-base text-body-color dark:text-dark-6"
-                  data-wow-delay=".1s"
-                >
-                  {entry.data.postDetails.paraFour}
-                </p>
-                <p
-                  class="wow fadeInUp mb-10 text-base text-body-color dark:text-dark-6"
-                  data-wow-delay=".1s"
-                >
-                  {entry.data.postDetails.paraFive}
-                </p>
-
                 <div class="-mx-4 mb-12 flex flex-wrap items-center">
                   <div class="w-full px-4 md:w-1/2">
                     <div
@@ -233,7 +188,7 @@ const { Content } = await entry.render();
                       class="wow fadeInUp flex items-center md:justify-end"
                       data-wow-delay=".1s"
                     >
-                      <span class="mr-5 text-sm font-medium text-body-color dark:text-dark-6">
+                      <span class="mr-5 text-sm font-medium text-body-color dark:text-white">
                         Share This Post
                       </span>
                       <div class="flex items-center gap-[10px]">
