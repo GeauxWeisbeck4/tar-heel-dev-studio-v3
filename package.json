@@ -1,7 +1,7 @@
 {
-  "name": "play-astro",
+  "name": "tar-heel-dev-studio-v3",
   "type": "module",
-  "version": "1.0",
+  "version": "3.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
