@@ -132,7 +132,7 @@ views: "69"
     <li class="p-4 list-disc list-inside">Complexity: For smaller projects, Nuxt.js might be overkill due to its extensive feature set.</li>
 <ul>
 
-<h2 class="mt-6 mb-6  text-3xl font-bold dark:text-sky-200 text-sky-700">Conclusion: How Tar Heel Dev Studio Leverages These Frameworks</h2>
+<h2 class="mt-6 mb-6 text-3xl font-bold dark:text-sky-200 text-sky-700">Conclusion: How Tar Heel Dev Studio Leverages These Frameworks</h2>
 
 <p class="p-4">At Tar Heel Dev Studio, we understand that each project is unique and requires the right tools to meet specific needs. Our team is well-versed in a variety of frameworks, including Next.js, Gatsby, Astro.js, 11ty, Deno Fresh, Remix, Svelte Kit, and Nuxt.js. Here’s how we use these frameworks to deliver exceptional results for our clients:</p>
 <ul>
@@ -146,5 +146,5 @@ views: "69"
 
 <a href="/contact">Get Started</a> | <a href="/contact">Contact Us</a> | <a href="/about">Learn More</a>
 
-<h2 class="mt-6 mb-6  text-3xl font-bold dark:text-sky-200 text-sky-700">Let's Build Your Dream App or Website Together</h2>
-<p class="p-4">At Tar Heel Dev Studio, we're passionate about helping businesses succeed through innovative website design, web app
+<h2 class="mt-6 mb-6 text-3xl font-bold dark:text-sky-200 text-sky-700">Let's Build Your Dream App or Website Together</h2>
+<p class="p-4">At Tar Heel Dev Studio, we're passionate about helping small businesses succeed through innovative website design and app development. We choose the best tech stacks to optimize performance and use best marketing practices to create unique digital experiences for our clients. Schedule your free consultation appointment and website review today so we can get you a free quote and help you get started in building your next project.</p>
