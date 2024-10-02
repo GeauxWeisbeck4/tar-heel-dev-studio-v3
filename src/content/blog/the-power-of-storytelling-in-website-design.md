@@ -4,7 +4,7 @@ title: "The Power of Storytelling in Website Design: Driving User Engagement"
 description: "Learn how using storytelling in designing your website can drive user engagement."
 snippet: "How you can use storytelling to enhance brand engagement for small businesses."
 image: {
-    src: "/assets/blog/storytelling-web-design-user.png",
+    src: "/assets/blog/web-design-story.png",
     alt: "blog details"
 }
 authImage: {
@@ -100,8 +100,8 @@ views: "88"
 <h2 class="mt-6 mb-6  text-3xl font-bold dark:text-sky-200 text-sky-700">Let's Tell Your Story Together</h2>
 
 <p class="p-4">At Tar Heel Dev Studio, we're passionate about helping small businesses tell their unique stories. Whether it's through a beautifully designed website, a user-centric web app, or compelling marketing campaigns, we're here to help you connect with your audience and grow your brand.</p>
+
+<p class="p-4">By incorporating these storytelling techniques into your website design, you can create a narrative that resonates deeply with your audience, fostering a deeper and more meaningful relationship with your brand.</p>
 <div class="p-4">
     <span><a href="/" class="text-2xl text-sky-400 hover:text-white font-bold hover:underline">Get Started</a> | <a href="/contact" class="text-2xl text-sky-400 hover:text-white font-bold hover:underline">Contact Us</a> | <a href="/about" class="text-2xl text-sky-400 hover:text-white font-bold hover:underline">Learn More</a></span>
 </div>
-
-<p class="p-4">By incorporating these storytelling techniques into your website design, you can create a narrative that resonates deeply with your audience, fostering a deeper and more meaningful relationship with your brand.</p>

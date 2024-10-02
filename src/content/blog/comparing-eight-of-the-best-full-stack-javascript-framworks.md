@@ -4,7 +4,7 @@ title: "Comparing Eight of the Best Full-Stack Web Development Frameworks"
 description: "In this post we help you decide which full-stack JavaScript web development framework is the best choice for your next project"
 snippet: "Trying to decide which full-stack JavaScript framework is best for your next project? We compare Next.js, Gatsby, Astro.js, 11ty, Deno Fresh, Remix, Svelte Kit, and Nuxt so you don't have to. Read more to decide which works best for you!"
 image: {
-    src: "/assets/blog/javascript-frameworks.png",
+    src: "/assets/blog/comparing-frameworks.png",
     alt: "blog details"
 }
 authImage: {
@@ -143,8 +143,8 @@ views: "69"
 </ul>
 
 <p class="p-4">By hiring Tar Heel Dev Studio, you can save time, money, and effort. Our expertise in multiple frameworks means we can choose the best tool for your project, ensuring it meets your specific needs and delivers a high-quality user experience. Whether you need a fast and lightweight solution or a robust and feature-rich application, we have the skills and knowledge to bring your vision to life.</p>
-
-<a href="/contact">Get Started</a> | <a href="/contact">Contact Us</a> | <a href="/about">Learn More</a>
-
 <h2 class="mt-6 mb-6 text-3xl font-bold dark:text-sky-200 text-sky-700">Let's Build Your Dream App or Website Together</h2>
 <p class="p-4">At Tar Heel Dev Studio, we're passionate about helping small businesses succeed through innovative website design and app development. We choose the best tech stacks to optimize performance and use best marketing practices to create unique digital experiences for our clients. Schedule your free consultation appointment and website review today so we can get you a free quote and help you get started in building your next project.</p>
+<div class="p-4">
+    <span><a href="/contact">Get Started</a> | <a href="/contact">Contact Us</a> | <a href="/about">Learn More</a></span>
+</div>

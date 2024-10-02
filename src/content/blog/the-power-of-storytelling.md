@@ -4,7 +4,7 @@ title: "The Power of Storytelling: Enhancing Brand Engagement for Small Business
 description: "How you can use storytelling to enhance brand engagement for small businesses."
 snippet: "How you can use storytelling to enhance brand engagement for small businesses."
 image: {
-    src: "/assets/blog/storyengagement.jpg",
+    src: "/assets/blog/storytelling-brand.png",
     alt: "blog details"
 }
 authImage: {

@@ -4,7 +4,7 @@ title: "How to Create an Effective SEO Content Marketing Strategy: A Step-by-Ste
 description: "Planning, designing, developing, and marketing a business website is no small feat - learn the process by reading this post."
 snippet: "Have you truly considered all the steps that are involved in planning, designing, developing, and then marketing your own small business website? There is much more than you might expect. Read our comprehensive guide to learn how you can do this yourself or leave it to the experts to save you time, effort, and money."
 image: {
-    src: "/assets/blog/how-to-create-seo-strategy.png",
+    src: "/assets/blog/seo-content-strategy.png",
     alt: "blog details"
 }
 authImage: {
