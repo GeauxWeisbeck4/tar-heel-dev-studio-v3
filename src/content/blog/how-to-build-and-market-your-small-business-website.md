@@ -1,10 +1,10 @@
 ---
 draft: false
-title: "The Process of Building and Marketing a Business Website: A Comprehensive Guide"
+title: "How to Build and Market Your Small Business Website: A Comprehensive Guide"
 description: "Planning, designing, developing, and marketing a business website is no small feat - learn the process by reading this post."
 snippet: "Have you truly considered all the steps that are involved in planning, designing, developing, and then marketing your own small business website? There is much more than you might expect. Read our comprehensive guide to learn how you can do this yourself or leave it to the experts to save you time, effort, and money."
 image: {
-    src: "/assets/blog/storyengagement.jpg",
+    src: "/assets/blog/build-market-website-cover.png",
     alt: "blog details"
 }
 authImage: {
@@ -19,7 +19,9 @@ comments: "This is a must read for any small business that is considering buildi
 views: "103"
 ---
 
-Creating a new business website is a multifaceted process that involves careful planning, design, development, and marketing. Each step is crucial to ensuring your website not only looks great but also functions effectively and attracts the right audience. Here’s a step-by-step guide to help you through this journey.
+<p class="p-4">Creating a new business website is a multifaceted process that involves careful planning, design, development, and marketing. Each step is crucial to ensuring your website not only looks great but also functions effectively and attracts the right audience. Here’s a step-by-step guide to help you through this journey.</p>
+
+<h2 class="mt-6 mb-6  text-3xl font-bold dark:text-sky-200 text-sky-700">How to Build and Market Your Small Business Website: A Comprehensive Guide</h2>
 Step 1: Planning Your Website
 Before diving into design and development, it's essential to plan your website thoroughly. Here are some key steps to consider:
 Define Your Objectives:
