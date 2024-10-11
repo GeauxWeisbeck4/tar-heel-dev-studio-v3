@@ -16,13 +16,6 @@ import Blogsection from '../components/Blogsection.astro';
   description="Empowering small businesses to succeed through innovative software, development, design, and marketing solutions | Tar Heel Dev Studio"
   title="Tar Heel Dev Studio | Software Development, Design, and Marketing"
 >
-  <button class="bg-red-500 text-xl" id="error-button">Throw test error</button>
-<script>
-  function handleClick () {
-    throw new Error('This is a test error');
-  }
-  document.querySelector("#error-button").addEventListener("click", handleClick);
-</script>
   <Hero />
   <Features />
   <About />
