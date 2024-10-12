@@ -7,20 +7,26 @@ import robotsTxt from "astro-robots-txt";
 
 import sentry from "@sentry/astro";
 
+import netlify from "@astrojs/netlify";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://tarheeldevstudio.com",
+
   integrations: [
     tailwind(),
     compress(),
     sitemap(),
     robotsTxt(),
     sentry({
-      dsn: "https://1a9321fd2741f1ff30641ac7830cf8c0@o4508106246848512.ingest.us.sentry.io/4508106371104768",
+      dsn: "https://4c946e779e36091f13bce228b014cf7e@o4508106246848512.ingest.us.sentry.io/4508107128569856",
       sourceMapsUploadOptions: {
         project: "javascript-astro",
-        authToken: process.env.SENTRY_AUTH_TOKEN,
+        authToken: process.env.PUBLIC_SENTRY_AUTH_TOKEN,
       },
     }),
   ],
+
+  output: "server",
+  adapter: netlify(),
 });

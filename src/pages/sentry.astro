@@ -1,0 +1,10 @@
+---
+
+---
+<button class="bg-red-500 ookk" id="error-button">Throw test error</button>
+<script>
+  function handleClick () {
+    throw new Error('This is a test error');
+  }
+  document.querySelector("#error-button").addEventListener("click", handleClick);
+</script>
